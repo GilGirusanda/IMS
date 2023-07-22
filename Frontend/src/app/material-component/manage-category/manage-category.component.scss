@@ -1,0 +1,26 @@
+.float-right{
+  float: right;
+}
+
+mat-card{
+  padding: 20px;
+}
+
+table{
+  width: 100%;
+}
+
+::ng-deep .highlight{
+  color: #fff;
+  background: #2d8d6d;
+}
+
+th{
+  font-size: 20px;
+}
+
+td{
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}

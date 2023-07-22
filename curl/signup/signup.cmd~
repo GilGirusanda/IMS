@@ -1,0 +1,4 @@
+curl http://localhost:8088/user/signup ^
+-d '{ \"name\": \"Impolite\", \"contactNumber\":\"1923557543\", \"email\":\"@vuejs@gmail.com\", \"password\":\"1234567\" }' ^
+-H "Content-Type: application/json" ^
+-X POST
